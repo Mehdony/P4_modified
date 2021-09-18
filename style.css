@@ -7,6 +7,22 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.quote {
+    font-size: 23px;
+}
+ 
+.quote-author {
+    font-size: 22px;
+}
+
+#fs{
+    font-size: 18px;
+}
+
+.title2{
+   font-weight: 22px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
