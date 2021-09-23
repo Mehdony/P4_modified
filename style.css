@@ -19,6 +19,11 @@ body {
     font-size: 18px;
 }
 
+.container-nav-contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .title2{
    font-weight: 22px;
 }
@@ -303,11 +308,39 @@ a:hover {
     font-size: 45px;
 }
 
+#bloc-6{
+   display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#navbar-contact{
+    width: 1024px;
+
+}
+
+.text-center629{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
 }
 
+.btn-navbar{
+    display: flex; 
+    width: 200px;
+    margin: 0;
+    list-decoration: none;
+
+
+}
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -371,6 +404,12 @@ a:hover {
     float: left;
 }
 
+#bloc-01{
+    width: 1024px;
+}
+
+
+
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
@@ -398,7 +437,7 @@ a:hover {
         text-align: center;
     }
     .nav-center .navbar-header {
-        width: 100%;
+        width: 100%;   
     }
     .nav-center .navbar-header,
     .nav-center .navbar-brand,
@@ -520,6 +559,8 @@ button {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
+
+
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
@@ -904,11 +945,19 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    
     .page-container,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
     }
+    
+    .page-container1,
+    #hero-bloc1 {
+        overflow-x: hidden;
+        position: relative;
+    }
+
     .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
