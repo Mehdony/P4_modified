@@ -285,6 +285,17 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
+#bloc-7{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#form-contact{
+    background-color: rgb(255, 255, 255);
+}
+
+
 .voffset {
     margin-top: 30px;
 }
@@ -304,6 +315,13 @@ a:hover {
     padding-left: 0;
 }
 
+#rowcontact{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    align-items: center;
+}
+
 #bloc-1-hero h1 {
     font-size: 45px;
 }
@@ -318,6 +336,20 @@ a:hover {
 #navbar-contact{
     width: 1024px;
 
+}
+
+form div input {
+    width: 500px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#info-contact p {
+    font-size: 20px;
 }
 
 .text-center629{
@@ -337,9 +369,6 @@ a:hover {
     display: flex; 
     width: 200px;
     margin: 0;
-    list-decoration: none;
-
-
 }
 .navbar-brand {
     height: auto;
@@ -362,6 +391,38 @@ a:hover {
 
 .nav-center .navbar-brand img {
     margin: 0;
+}
+.navContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.navContact{
+    
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    justify-content: space-between;
+}
+
+.navContact ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.navContact ul li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+    
+.navbar-brandContact{
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .navbar .nav {
@@ -404,12 +465,14 @@ a:hover {
     float: left;
 }
 
+
 #bloc-01{
     width: 1024px;
 }
-
-
-
+#bloc-0{
+    margin: 0;
+    padding: 0;
+}
 .nav-invert .navbar-header,
 .nav-invert .navbar-brand {
     float: right;
@@ -714,6 +777,12 @@ a {
     max-width: 1000px;
 }
 
+.container1 {
+    padding: 0;
+    max-width: 1024px;
+    width: 1024px;
+}
+
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -956,7 +1025,9 @@ h4 {
     #hero-bloc1 {
         overflow-x: hidden;
         position: relative;
+        
     }
+
 
     .bloc {
         padding-left: constant(safe-area-inset-left);
@@ -1003,6 +1074,18 @@ h4 {
         margin-left: 0;
         margin-right: 0;
     }
+    .row-contact {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 1024px;
+    }
+
+    #contact1{
+        width: 500px;
+
+    }
+
     .site-navigation {
         position: inherit;
         transform: none;
@@ -1055,6 +1138,11 @@ h4 {
         float: none;
         width: 100%;
     }
+
+    .navbar-header-contact{
+        width: 500px;
+    }
+
     .nav-invert .navbar-toggle {
         float: left;
         margin-left: 10px;
