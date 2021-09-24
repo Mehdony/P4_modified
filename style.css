@@ -392,32 +392,7 @@ form div input {
 .nav-center .navbar-brand img {
     margin: 0;
 }
-.navContainer{
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-}
-.navContact{
-    
-    display: flex;
-    flex-direction: row;
-    width: 1024px;
-    justify-content: space-between;
-}
 
-.navContact ul {
-    display: flex;
-    flex-direction: row;
-    margin-right: 50px;
-    list-style-type: none;
-}
-
-.navContact ul li a {
-    text-decoration: none;
-    color: black;
-    margin-left: 20px;
-}
     
 .navbar-brandContact{
     height: 100%;
@@ -488,6 +463,12 @@ form div input {
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
+    .navbar-collapse{
+        padding: inherit;
+    }
+    .row {
+        margin-right: inherit;
+    }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -518,6 +499,25 @@ form div input {
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+    }
+
+    .container {
+        max-width: 728px;
+    }
+    .navbar {
+         max-width: 728px;
+         margin-left: 20px;
+    }
+    label{
+        font-size: 18px;
+    }
+    .text-contact{
+        font-size: 18px;
+        display: flex;
+        text-align: center;
+    }
+    p.txt-contact-footer{
+        font-size: 18px;
     }
 }
 
@@ -777,11 +777,6 @@ a {
     max-width: 1000px;
 }
 
-.container1 {
-    padding: 0;
-    max-width: 1024px;
-    width: 1024px;
-}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -885,6 +880,9 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.navbar {
+    max-width: 1024px;
+    }
 .portfolio-thumb {
     margin-bottom: 24px;
     
@@ -1065,10 +1063,14 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
+    
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
+    }
+    .navbar-1 {
+    padding-right: 20px;
     }
     .navbar.row {
         margin-left: 0;
@@ -1207,7 +1209,51 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .image-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .image-card img{
+       width: 345px;
+    
+    }
+    .portfolio-row-mob{
+        flex-direction: column;
+
+    }
+    .portfolio-row {
+        margin-bottom: inherit;
+        margin-top: inherit;
+        
+    }
+    .margin-card{
+        margin-bottom: 30px;
+    }
+    .h2contact{
+        font-size: 18px;
+    }
+
+    .mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .text-center{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
 }
+
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
