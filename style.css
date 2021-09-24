@@ -285,6 +285,17 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
+#bloc-7{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#form-contact{
+    background-color: rgb(255, 255, 255);
+}
+
+
 .voffset {
     margin-top: 30px;
 }
@@ -304,6 +315,13 @@ a:hover {
     padding-left: 0;
 }
 
+#rowcontact{
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    align-items: center;
+}
+
 #bloc-1-hero h1 {
     font-size: 45px;
 }
@@ -318,6 +336,20 @@ a:hover {
 #navbar-contact{
     width: 1024px;
 
+}
+
+form div input {
+    width: 500px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#info-contact p {
+    font-size: 20px;
 }
 
 .text-center629{
@@ -390,7 +422,7 @@ a:hover {
 .navbar-brandContact{
     height: 100%;
     display: flex;
-    align-items: ;
+    align-items: center;
 }
 
 .navbar .nav {
