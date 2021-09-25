@@ -1222,7 +1222,8 @@ h4 {
         display: flex;
         justify-content: center;
         align-items: center;
-    
+        width: 270px;
+        height: 270px;
     }
     .image-card img{
        width: 345px;
