@@ -1222,13 +1222,9 @@ h4 {
         display: flex;
         justify-content: center;
         align-items: center;
-        
+         
     }
-    .image-card img{
-       
-    width: 270px;
-        height: 270px;
-    }
+  
     .portfolio-row-mob{
         flex-direction: column;
 
